@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "notion-google-assistant"
+version = "0.1.0"
+description = "Voice interface for adding quick notion tasks/chores"
+authors = ["Johnny Rocketfingers <developer94@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.25.1"
+Flask = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+ipython = "^7.24.1"
+black = "^21.6b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
